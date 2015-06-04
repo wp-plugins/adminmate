@@ -1,7 +1,7 @@
 <?php
 
 /*
-  Plugin Name: AdminMate Pro
+  Plugin Name: AdminMate
   Plugin URI: http://www.WPAdminMate.com/
   Description: Everything you need for customize your admin pages, menu, table columns and more.
   Version: 1.0.2
