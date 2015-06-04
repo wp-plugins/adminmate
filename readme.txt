@@ -110,7 +110,10 @@ We provide free support at <a href="http://wpadminmate.com/contact-us/">http://w
 
 == Changelog ==
 
-= 1.0 =
+= 1.0.2 =
+* Minor bugs fixes for IE users
+
+= 1.0.1 =
 * Initial version
 
 
@@ -118,5 +121,8 @@ We provide free support at <a href="http://wpadminmate.com/contact-us/">http://w
 
 == Upgrade Notice ==
 
-= 1.0 =
+= 1.0.2 =
+* Minor bugs fixes for IE users
+
+= 1.0.1 =
 * Initial version

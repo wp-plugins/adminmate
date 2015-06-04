@@ -1,10 +1,10 @@
 <?php
 
 /*
-  Plugin Name: AdminMate
+  Plugin Name: AdminMate Pro
   Plugin URI: http://www.WPAdminMate.com/
   Description: Everything you need for customize your admin pages, menu, table columns and more.
-  Version: 1.0.1
+  Version: 1.0.2
   Author: JD Tool Kit
   Author URI: http://www.WPAdminMate.com/
   Text Domain: jdtk
