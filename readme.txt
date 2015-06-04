@@ -8,7 +8,7 @@ Stable tag: 1.0.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Everything you need to customize your admin pages, menu, admin bar, table columns, login page, styling, colorizing and more.
+Everything you need to customize your admin screens, menu, admin bar, table columns, login page, styling, colorizing and more.
 
 == Description ==
 
@@ -16,7 +16,7 @@ Everything you need to customize your admin pages, menu, admin bar, table column
 
 
 = STYLING =
-Let's make your own theme for your admin pages.
+Let's make your own theme for your admin screens.
 
 * Change background color
 * Add/Change background image
@@ -27,7 +27,7 @@ Let's make your own theme for your admin pages.
 * Change color of separators
 * Modify background color of post tables
 * Edit text color of post tables
-* Add/Change favicon for admin pages
+* Add/Change favicon for admin screens
 
 and much much more...
 
