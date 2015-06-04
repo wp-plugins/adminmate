@@ -23,6 +23,10 @@
 class JDTK_Admin_Mate_Main_UI extends JDTK_Type_UI {
 
   public function init_ui() {
+    if (!function_exists('get_plugin_data')) {
+      require_once ABSPATH . 'wp-admin/includes/plugin.php';
+    }
+    $plugin_data = get_plugin_data(__PLUGIN__);
     ?>
     <div class='wrap'>
       <div id='poststuff'>
@@ -31,7 +35,7 @@ class JDTK_Admin_Mate_Main_UI extends JDTK_Type_UI {
             <img src="<?php echo JDTK_ADMIN_MATE_URL . "images/adminmate-header.png"; ?>" 
                  alt="AdminMate <?php echo __("by", 'jdtk'); ?> JD Tool Kit">
           </h1>
-          <h2><?php echo __("version", 'jdtk'); ?> 1.0.1</h2>
+          <h2><?php echo __("version", 'jdtk') . ' ' . $plugin_data['Version']; ?></h2>
         </div>
         <div id='post-body' class='metabox-holder columns-2'>
           <div id='post-body-content'>
