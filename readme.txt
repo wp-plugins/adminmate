@@ -17,6 +17,7 @@ Everything you need to customize your admin pages, menu, admin bar, table column
 
 = STYLING =
 Let's make your own theme for your admin pages.
+
 * Change background color
 * Add/Change background image
 * Customize background image
@@ -27,6 +28,7 @@ Let's make your own theme for your admin pages.
 * Modify background color of post tables
 * Edit text color of post tables
 * Add/Change favicon for admin pages
+
 and much much more...
 
 
