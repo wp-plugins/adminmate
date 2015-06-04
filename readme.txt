@@ -82,9 +82,9 @@ If you have any questions, requests for more features, ideas for future developm
 
 == Installation ==
 
-1. Upload `jdtk-admin-mate` directory to the `/wp-content/plugins/` directory
-2. Activate the plugin through the 'Plugins' menu in WordPress
-3. Activated plugin will appears in the menu
+1. Upload `jdtk-admin-mate` directory to the `/wp-content/plugins/` directory.
+2. Activate the plugin through the 'Plugins' menu in WordPress.
+3. Activated plugin will appear in the menu.
 
 
 
