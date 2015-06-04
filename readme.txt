@@ -92,7 +92,7 @@ If you have any questions, requests for more features, ideas for future developm
 == Frequently Asked Questions ==
 
 = Where can I get support? =
-We provides free support at <a href="http://wpadminmate.com/contact-us/">http://wpadminmate.com/contact-us/</a>.
+We provide free support at <a href="http://wpadminmate.com/contact-us/">http://wpadminmate.com/contact-us/</a>.
 
 
 
