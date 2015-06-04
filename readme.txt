@@ -4,7 +4,7 @@ Donate link: http://wpadminmate.com/donate/
 Tags: wordpress, plugin, admin, adminmate, admin page, custom admin, customize, styling, admin menu, admin bar, admin footer, column, columns, custom columns, customize columns, manage columns, login page, posts, pages, media, comments, users
 Requires at least: 3.0.1
 Tested up to: 4.2.2
-Stable tag: 1.0.1
+Stable tag: 1.0.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
