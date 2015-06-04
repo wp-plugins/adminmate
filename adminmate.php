@@ -33,6 +33,7 @@ define('JDTK_OPTION', 'jdtoolkit_custom_admin_options');
 define('JDTK_ADMIN_BAR', 'jdtoolkit_custom_admin_bar');
 define('JDTK_ADMIN_MATE_URL', plugin_dir_url(__FILE__));
 define('JDTK_ADMIN_MATE_PATH', plugin_dir_path(__FILE__));
+define('__PLUGIN__', __FILE__);
 
 foreach (array('core', 'tools', 'options') as $area) {
   $files = glob(JDTK_ADMIN_MATE_PATH . "includes/$area/*.php");
@@ -185,9 +186,9 @@ class JDTK_Admin_Mate {
       wp_enqueue_style('wp-pointer');
     }
 
-    if (!wp_style_is('glyphicon-css')) {
-      wp_enqueue_style('glyphicon-css', plugins_url("_my_note/css/glyphicon.min.css", __FILE__));
-    }
+//    if (!wp_style_is('glyphicon-css')) {
+//      wp_enqueue_style('glyphicon-css', plugins_url("css/glyphicon.min.css", __FILE__));
+//    }
 
     if (!wp_script_is('colResizable')) {
       wp_enqueue_script('colResizable', plugins_url('js/colResizable-1.5.min.js', __FILE__), $scripts, false, true);
