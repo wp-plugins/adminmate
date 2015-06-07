@@ -14,6 +14,12 @@ Everything you need to customize your admin screens, menu, admin bar, table colu
 
 **AdminMate** help you to customize and organize components in WordPress administration screens such as **admin menu**, **admin bar**, **login page**, and manage **columns** in the tables of the posts, custom posts, media, comments, users.
 
+* **Styling/Coloring**: Add background-image and blend it with background-color. Change color and transparency levels of each component's background, customize the favicons of admin screens and the login screen, Adjust font weight, font color in echo component.
+* **Columns**: Customize columns in the table of your post type screens, Add new columns to display your data, or custom fields, including fields created by **Advanced Custom Fields** plugin. Hide unwanted columns from post tables. Rename or hide column header labels. Add icons to column header. Add action bars (Edit, Quick Edit, Trash, View) to columns of your choice. Reorder columns. Resize columns in a table all together at once. Display column data as image, string, etc.
+* **Admin Menu**: Organize and customize admin menu: reordering, hiding, changing icon, renaming.
+* **Login Screen**: Make your login page look fabulous by: adding favicon, adding background image and blend it with background color, changing the WordPress logo to your business logo.
+* **Admin Bar**: Hide admin bar from your side pages and/or admin screens, or hide just some menus/sub-menus in admin bar.
+
 
 = STYLING =
 Let's make your own theme for your admin screens.
