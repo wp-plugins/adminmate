@@ -1,6 +1,6 @@
 <?php
 
-/* 
+/*
  * Copyright (C) 2015 WPAdminMate.com (email: info@wpadminmate.com)
  *
  * This program is free software; you can redistribute it and/or
@@ -28,6 +28,10 @@ class JDTK_Icon_Picker extends JDTK_Type_UI {
 
   public function init_ui() {
     $this->iconlist = array(
+      'initial' => array(
+        'title' => __("Rollback to initial icon", 'jdtk'),
+        'item' => "dashicons-empty"
+      ),
       'empty' => array(
         'title' => __("If you don't want any icon, click here", 'jdtk'),
         'item' => "dashicons-empty"
@@ -776,6 +780,9 @@ class JDTK_Icon_Picker extends JDTK_Type_UI {
       $html_str .= "<div class='$section_id'>";
       $html_str .= "<h4>" . $section['title'] . "</h4>";
       switch ($section_id) {
+        case 'initial':
+          $html_str .="<li class='jdtk-icon-item icon'><span></span></li>";
+          break;
         case 'empty':
           $html_str .="<li class='jdtk-icon-item icon' title='"
             . $section['item'] . "'><span class='dashicons "

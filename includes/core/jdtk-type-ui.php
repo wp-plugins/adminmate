@@ -390,10 +390,12 @@ abstract class JDTK_Type_UI {
 
     $pos = strrpos($icon, '.');
 
+    $meta_original = "meta-original='$original'";
+    
     if (strrpos($icon, '.') > -1 && (strlen($icon) - $pos - 1 <= 4)) {
-      $html_str .= "' $attr><img src='$icon'>";
+      $html_str .= "' $attr $meta_original><img src='$icon'>";
     } else {
-      $html_str .= "$icon' $attr>";
+      $html_str .= "$icon' $attr $meta_original>";
     }
 
     $html_str .= "</div>";

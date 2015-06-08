@@ -4,7 +4,7 @@
   Plugin Name: AdminMate
   Plugin URI: http://www.WPAdminMate.com/
   Description: Everything you need for customize your admin pages, menu, table columns and more.
-  Version: 1.0.2
+  Version: 1.0.3
   Author: JD Tool Kit
   Author URI: http://www.WPAdminMate.com/
   Text Domain: jdtk
@@ -170,9 +170,13 @@ class JDTK_Admin_Mate {
       wp_enqueue_script('wp-color-picker-alpha', plugins_url('js/wp-color-picker-alpha.min.js', __FILE__), $scripts, false, true);
     }
 
-    if (!wp_style_is('genericons')) {
-      wp_enqueue_style('genericons', plugins_url('css/genericons.min.css', __FILE__));
-    }
+//    if (!wp_style_is('genericons')) {
+//      wp_enqueue_style('genericons', plugins_url('css/genericons.min.css', __FILE__));
+//    }
+    
+//    if (!wp_style_is('glyphicon-css')) {
+//      wp_enqueue_style('glyphicon-css', plugins_url("css/glyphicon.min.css", __FILE__));
+//    }
 
     if (!wp_style_is('jdtk-style')) {
       $filename = 'css/style.css';
@@ -185,10 +189,6 @@ class JDTK_Admin_Mate {
     if (!wp_style_is('wp-pointer')) {
       wp_enqueue_style('wp-pointer');
     }
-
-//    if (!wp_style_is('glyphicon-css')) {
-//      wp_enqueue_style('glyphicon-css', plugins_url("css/glyphicon.min.css", __FILE__));
-//    }
 
     if (!wp_script_is('colResizable')) {
       wp_enqueue_script('colResizable', plugins_url('js/colResizable-1.5.min.js', __FILE__), $scripts, false, true);
@@ -245,8 +245,8 @@ class JDTK_Admin_Mate {
     }
 
     if ($this->do_it()) {
-      if (isset(self::$TABS_CONTENTS['admin-bar'])) {
-        self::$TABS_CONTENTS['admin-bar']->add_actions();
+      if (isset(self::$TABS_CONTENTS['toolbar'])) {
+        self::$TABS_CONTENTS['toolbar']->add_actions();
       }
     }
 
@@ -256,12 +256,12 @@ class JDTK_Admin_Mate {
       }
 
       if ($this->do_it()) {
-        if (isset(self::$TABS_CONTENTS['admin-menu'])) {
-          self::$TABS_CONTENTS['admin-menu']->add_actions();
+        if (isset(self::$TABS_CONTENTS['menu'])) {
+          self::$TABS_CONTENTS['menu']->add_actions();
         }
 
-        if (isset(self::$TABS_CONTENTS['admin-footer'])) {
-          self::$TABS_CONTENTS['admin-footer']->add_actions();
+        if (isset(self::$TABS_CONTENTS['footer'])) {
+          self::$TABS_CONTENTS['footer']->add_actions();
         }
 
         if (isset(self::$TABS_CONTENTS['styling'])) {
