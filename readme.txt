@@ -4,7 +4,7 @@ Donate link: http://wpadminmate.com/donate/
 Tags: wordpress, plugin, admin, adminmate, admin mate, admin-mate, admin screens, admin screen, admin pages, admin page, administration screens, administration screen, login screen, login page, main navigation, main navigation menu, navigation menu, menu, toolbar, work area, footer, custom admin, customize, customization, styling, coloring, colorizing, admin menu, admin bar, admin footer, column, columns, custom columns, customize columns, manage columns, posts, pages, media, comments, users
 Requires at least: 3.0.1
 Tested up to: 4.2.2
-Stable tag: 1.0.3a
+Stable tag: 1.0.3b
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -128,8 +128,10 @@ We provide free support at <a href="http://wpadminmate.com/contact-us/">http://w
 
 
 
-
 == Changelog ==
+
+= 1.0.3b =
+* Fixed some user interface components for Safari browser.
 
 = 1.0.3a =
 * bugs fixes for login screen
@@ -147,6 +149,9 @@ We provide free support at <a href="http://wpadminmate.com/contact-us/">http://w
 
 
 == Upgrade Notice ==
+
+= 1.0.3b =
+* Fixed some user interface components for Safari browser.
 
 = 1.0.3a =
 * bugs fixes for login screen

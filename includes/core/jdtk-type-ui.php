@@ -114,8 +114,11 @@ abstract class JDTK_Type_UI {
 
     $original = $this->get($item["original"]);
     $value = $this->get($item["value"]);
-    if ('' === $value) {
-      $value = $original;
+
+    if (!preg_match('/columns\[(.+)\]\[label\]/', $name)) {
+      if ('' === $value) {
+        $value = $original;
+      }
     }
 
     $id_alt = $this->get($item["id_alt"]);
@@ -391,7 +394,7 @@ abstract class JDTK_Type_UI {
     $pos = strrpos($icon, '.');
 
     $meta_original = "meta-original='$original'";
-    
+
     if (strrpos($icon, '.') > -1 && (strlen($icon) - $pos - 1 <= 4)) {
       $html_str .= "' $attr $meta_original><img src='$icon'>";
     } else {
